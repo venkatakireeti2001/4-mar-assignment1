@@ -1,0 +1,9 @@
+list=[1,2,1,4]
+print("Duplicate elements in given list:")
+for i in range(0,len(list)):
+    for j in range(i+1,len(list)):
+        if(list[i]==list[j]):
+            print(list[j])
+output:
+Duplicate elements in given list:
+1
